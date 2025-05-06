@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://bdolapci.github.io/sitemap.xml",
+    sitemap: "https://bdolapci.github.io",
   }
 }

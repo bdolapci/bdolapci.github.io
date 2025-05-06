@@ -12,8 +12,7 @@ import "../globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
-  const resolvedParams = await params;
-  const locale = resolvedParams.locale;
+  const locale = params.locale;
 
   const t = await getTranslations({ locale, namespace: "Metadata" })
 
@@ -51,12 +50,11 @@ export function generateStaticParams() {
 export default async function RootLayout({
   children,
   params
-}: Readonly<{
+}: {
   children: React.ReactNode
   params: { locale: string }
-}>) {
-  const resolvedParams = await params;
-  const locale = resolvedParams.locale;
+}) {
+  const locale = params.locale;
   
   let messages
   try {

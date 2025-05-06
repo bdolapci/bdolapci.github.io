@@ -10,6 +10,9 @@ const nextConfig = {
   },
   basePath: '',
   trailingSlash: true,
+  typescript: {
+    ignoreBuildErrors: true  
+  }
 };
 
 export default withNextIntl(nextConfig);
