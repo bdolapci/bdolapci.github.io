@@ -38,7 +38,6 @@ export default function ContactForm() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     
-    // Verify reCAPTCHA first
     if (!captchaVerified) {
       toast({
         title: t("error.captcha.title") || "Verification Required",
@@ -63,7 +62,6 @@ export default function ContactForm() {
         description: t("success.message"),
       })
       
-      // Clear form data
       setFormData({
         name: "",
         email: "",
@@ -71,7 +69,6 @@ export default function ContactForm() {
         message: "",
       })
       
-      // Reset reCAPTCHA
       recaptchaRef.current?.reset()
       setCaptchaVerified(false)
       

@@ -21,10 +21,8 @@ export default function LanguageSwitcher() {
   const [open, setOpen] = useState(false)
 
   const handleLanguageChange = (value: string) => {
-    // Get the path without the locale prefix
     const pathWithoutLocale = pathname.replace(`/${locale}`, "")
 
-    // Navigate to the same path with the new locale
     router.push(`/${value}${pathWithoutLocale}`)
     setOpen(false)
   }
