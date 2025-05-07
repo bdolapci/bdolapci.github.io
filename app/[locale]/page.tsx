@@ -187,38 +187,38 @@ export default function Home() {
         className="py-16 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto"
       >
         <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
-          <TabsList className="grid w-full grid-cols-5 mb-8 h-auto">
-            <TabsTrigger
-              value="experience"
-              className="text-base sm:text-lg py-3 px-2 h-auto flex items-center justify-center"
-            >
-              {t("tabs.experience")}
-            </TabsTrigger>
-            <TabsTrigger
-              value="skills"
-              className="text-base sm:text-lg py-3 px-2 h-auto flex items-center justify-center"
-            >
-              {t("tabs.skills")}
-            </TabsTrigger>
-            <TabsTrigger
-              value="education"
-              className="text-base sm:text-lg py-3 px-2 h-auto flex items-center justify-center"
-            >
-              {t("tabs.education")}
-            </TabsTrigger>
-            <TabsTrigger
-              value="projects"
-              className="text-base sm:text-lg py-3 px-2 h-auto flex items-center justify-center"
-            >
-              {t("tabs.projects")}
-            </TabsTrigger>
-            <TabsTrigger
-              value="contact"
-              className="text-base sm:text-lg py-3 px-2 h-auto flex items-center justify-center"
-            >
-              {t("tabs.contact")}
-            </TabsTrigger>
-          </TabsList>
+        <TabsList className="grid w-full grid-cols-2 md:grid-cols-5 mb-8 h-auto">
+  <TabsTrigger
+    value="experience"
+    className="text-xs sm:text-base md:text-lg py-3 px-1 sm:px-2 h-auto flex items-center justify-center"
+  >
+    {t("tabs.experience")}
+  </TabsTrigger>
+  <TabsTrigger
+    value="skills"
+    className="text-xs sm:text-base md:text-lg py-3 px-1 sm:px-2 h-auto flex items-center justify-center"
+  >
+    {t("tabs.skills")}
+  </TabsTrigger>
+  <TabsTrigger
+    value="education"
+    className="text-xs sm:text-base md:text-lg py-3 px-1 sm:px-2 h-auto flex items-center justify-center"
+  >
+    {t("tabs.education")}
+  </TabsTrigger>
+  <TabsTrigger
+    value="projects"
+    className="text-xs sm:text-base md:text-lg py-3 px-1 sm:px-2 h-auto flex items-center justify-center"
+  >
+    {t("tabs.projects")}
+  </TabsTrigger>
+  <TabsTrigger
+    value="contact"
+    className="text-xs sm:text-base md:text-lg py-3 px-1 sm:px-2 h-auto flex items-center justify-center"
+  >
+    {t("tabs.contact")}
+  </TabsTrigger>
+</TabsList>
 
           {/* Experience Tab */}
           <TabsContent value="experience" className="mt-6">
