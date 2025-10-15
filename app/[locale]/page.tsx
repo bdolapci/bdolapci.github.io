@@ -506,12 +506,16 @@ export default function Home() {
               </h2>
               <div className="space-y-8">
                 {[
+
                   "project1",
                   "project2",
                   "project3",
                   "project4",
                   "project5",
                   "project6",
+                  "project7",
+                  "project8",
+                  "project9",
                 ].map((project, index) => (
                   <motion.div
                     key={project}
@@ -531,8 +535,6 @@ export default function Home() {
 
                         {(() => {
                           try {
-                            t(`projects.${project}.title`);
-
                             const outcomesKey = `projects.${project}.outcomes`;
                             const outcomes = t.raw(outcomesKey);
 
@@ -594,35 +596,30 @@ export default function Home() {
 
                 {/* Upcoming Projects Section */}
                 <div className="mt-12">
-                  <h3 className="text-2xl font-semibold mb-6">
+                  <h3 className="text-2xl font-semibold mb-6 text-gray-900 dark:text-white">
                     {t("projects.upcoming.title")}
                   </h3>
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    {["upcoming1", "upcoming2", "upcoming3"].map(
-                      (project, index) => (
-                        <motion.div
-                          key={project}
-                          initial={{ opacity: 0, y: 20 }}
-                          whileInView={{ opacity: 1, y: 0 }}
-                          transition={{ duration: 0.5, delay: index * 0.1 }}
-                          viewport={{ once: true }}
-                        >
-                          <Card className="h-full overflow-hidden transform transition-all hover:scale-[1.01] border-dashed border-2">
-                            <CardContent className="pt-6">
-                              <div className="inline-block px-3 py-1 mb-3 text-sm bg-gray-100 dark:bg-gray-800 rounded-full">
-                                {t("projects.upcoming.comingSoon")}
-                              </div>
-                              <h3 className="text-xl font-semibold mb-2">
-                                {t(`projects.upcoming.${project}.title`)}
-                              </h3>
-                              <p className="text-gray-700 dark:text-gray-300">
-                                {t(`projects.upcoming.${project}.description`)}
-                              </p>
-                            </CardContent>
-                          </Card>
-                        </motion.div>
-                      )
-                    )}
+                  <div className="grid grid-cols-1 gap-6">
+                    <motion.div
+                      initial={{ opacity: 0, y: 20 }}
+                      whileInView={{ opacity: 1, y: 0 }}
+                      transition={{ duration: 0.5 }}
+                      viewport={{ once: true }}
+                    >
+                      <Card className="h-full overflow-hidden transform transition-all hover:scale-[1.01] border-dashed border-2 border-blue-300 dark:border-blue-700">
+                        <CardContent className="pt-6">
+                          <div className="inline-block px-3 py-1 mb-3 text-sm bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full">
+                            {t("projects.upcoming.comingSoon")}
+                          </div>
+                          <h3 className="text-xl font-semibold mb-2">
+                            {t("projects.upcoming.upcoming1.title")}
+                          </h3>
+                          <p className="text-gray-700 dark:text-gray-300">
+                            {t("projects.upcoming.upcoming1.description")}
+                          </p>
+                        </CardContent>
+                      </Card>
+                    </motion.div>
                   </div>
                 </div>
               </div>
