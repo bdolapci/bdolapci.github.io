@@ -40,15 +40,12 @@
       "technical": {
         "title": "Technical Skills",
         "items": {
-          "database": "Database",
-          "dotnet": "ASP.NET/C#",
-          "java": "Java/Spring",
-          "agile": "Agile Dev",
-          "frontend": "HTML/CSS/JS/TS",
-          "mern": "MERN/REST",
-          "git": "Git/Github",
-          "cloud": "Azure/Cloud",
-          "docker": "Docker"
+          "languages": "Languages: C#, JavaScript, TypeScript, Python, SQL, Java",
+          "frameworks": "Frameworks: ASP.NET Core, Node.js, Express.js, React, Next.js",
+          "cloud": "Cloud & DevOps: Microsoft Azure, Docker, GitHub Actions, REST APIs, CI/CD",
+          "databases": "Databases: PostgreSQL, MSSQL, Azure Blob/File Storage",
+          "tools": "Tools & Systems: Linux, Azure CLI, PowerShell, Bash",
+          "methods": "Methods: Agile Software Development (Scrum), Clean Architecture, Testing, Teamwork"
         }
       },
       "languages": {
@@ -71,7 +68,8 @@
         "items": {
           "webDev": "Web Development",
           "cloudDev": "Cloud Development",
-          "systemDesign": "System Design"
+          "systemDesign": "System Design",
+          "networksecurity": "Network Security"
         }
       }
     },
@@ -152,20 +150,42 @@
         ],
         "link": "https://github.com/bdolapci/Exoplanet-Finding-and-Similartiy-to-Earth"
       },
+      "project7": {
+        "title": "EdgeAI: Indoor Object Detection with Jetson Nano",
+        "description": "Real-time object detection in indoor environments using Jetson Nano and optimized deep learning models for edge devices.",
+        "outcomes": [
+          "Implemented a real-time object detection system for indoor environments.",
+          "Optimized deep learning models for edge computing with Jetson Nano.",
+          "Achieved low latency and high accuracy in object detection."
+        ],
+        "link": ""
+      },
+      "project8": {
+        "title": "Beauty Services Booking Platform",
+        "description": "Web platform for booking beauty services from freelancers using Next.js, Node.js, and PostgreSQL.",
+        "outcomes": [
+          "Developed a complete booking platform with real-time availability.",
+          "Implemented secure authentication and payment system.",
+          "Created a responsive user interface for customers and service providers."
+        ],
+        "link": ""
+      },
+      "project9": {
+        "title": "Smart Water Level Monitoring with 3D-Printed Sensor",
+        "description": "Project for monitoring water levels using sensors and embedded hardware as part of RheinMain University's Smart Campus initiative.",
+        "outcomes": [
+          "Developed an IoT-based water level monitoring system.",
+          "Integrated 3D-printed sensor housings with embedded hardware.",
+          "Implemented real-time data collection and visualization."
+        ],
+        "link": ""
+      },
       "upcoming": {
         "title": "Upcoming Projects",
         "comingSoon": "Coming Soon",
         "upcoming1": {
-          "title": "EdgeAI-Based Indoor Object Detection with Jetson Nano",
-          "description": "This project focuses on deploying real-time object detection inside home environments using the NVIDIA Jetson Nano and deep learning models optimized for edge devices."
-        },
-        "upcoming2": {
-          "title": "Beauty Services Booking Platform",
-          "description": "Developing a web platform that connects freelance beauty service providers with customers, allowing for online booking, availability management, and home service scheduling. Built using Next.js, Node.js, and PostgreSQL."
-        },
-        "upcoming3": {
-          "title": "Smart Water Level Monitoring with 3D-Printed Sensor",
-          "description": "This project aims to monitor water levels in a specific location (e.g., tank or utility system) using embedded sensors and deployable hardware, as part of RheinMain University’s smart campus initiative."
+          "title": "Explainable Wearable Biometrics: Explainable Continuous Stress Monitoring in AR Tasks",
+          "description": "Multimodal biometric system for stress detection with explainable AI, using Smartwatch (ECG, acceleration), HMD (Google HoloLens2/Apple Vision Pro - Gaze Tracking, acceleration, orientation sensors) and Motion Capture via Pose Estimation. Focus on sensor fusion, Lab Recorder for Bluetooth signal integration, and trustworthy explanations for user acceptance and compliance."
         }
       }
     },

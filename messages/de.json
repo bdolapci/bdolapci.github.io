@@ -40,15 +40,12 @@
       "technical": {
         "title": "Technische Fähigkeiten",
         "items": {
-          "database": "Datenbanken",
-          "dotnet": "ASP.NET/C#",
-          "java": "Java/Spring",
-          "agile": "Agile Entwicklung",
-          "frontend": "HTML/CSS/JS/TS",
-          "mern": "MERN/REST",
-          "git": "Git/Github",
-          "cloud": "Azure/Cloud",
-          "docker": "Docker"
+          "languages": "Sprachen: C#, JavaScript, TypeScript, Python, SQL, Java",
+          "frameworks": "Frameworks: ASP.NET Core, Node.js, Express.js, React, Next.js",
+          "cloud": "Cloud & DevOps: Microsoft Azure, Docker, GitHub Actions, REST APIs, CI/CD",
+          "databases": "Datenbanken: PostgreSQL, MSSQL, Azure Blob/File Storage",
+          "tools": "Tools & Systeme: Linux, Azure CLI, PowerShell, Bash",
+          "methods": "Methoden: Agile Softwareentwicklung (Scrum), Clean Architecture, Testing, Teamarbeit"
         }
       },
       "languages": {
@@ -71,7 +68,8 @@
         "items": {
           "webDev": "Webentwicklung",
           "cloudDev": "Cloud-Entwicklung",
-          "systemDesign": "Systemdesign"
+          "systemDesign": "Systemdesign",
+          "networksecurity": "Netzwerksicherheit"
         }
       }
     },
@@ -152,22 +150,45 @@
         ],
         "link": "https://github.com/bdolapci/Exoplanet-Finding-and-Similartiy-to-Earth"
       },
-      "upcoming": {
-        "title": "Kommende Projekte",
-        "comingSoon": "Demnächst verfügbar",
-        "upcoming1": {
-          "title": "EdgeAI: Indoor-Objekterkennung mit Jetson Nano",
-          "description": "Echtzeit-Objekterkennung in Innenräumen mit Jetson Nano und optimierten Deep-Learning-Modellen für Edge-Geräte."
-        },
-        "upcoming2": {
-          "title": "Buchungsplattform für Beauty-Dienstleistungen",
-          "description": "Webplattform für Buchung von Beauty-Services bei Freiberuflern mit Next.js, Node.js und PostgreSQL."
-        },
-        "upcoming3": {
-          "title": "Intelligente Wasserstandsmessung mit 3D-gedrucktem Sensor",
-          "description": "Projekt zur Überwachung von Wasserständen mit Sensorik & eingebetteter Hardware, im Rahmen der Smart Campus-Initiative der Hochschule RheinMain."
-        }
-      }
+      "project7": {
+  "title": "EdgeAI: Indoor-Objekterkennung mit Jetson Nano",
+  "description": "Echtzeit-Objekterkennung in Innenräumen mit Jetson Nano und optimierten Deep-Learning-Modellen für Edge-Geräte.",
+  "outcomes": [
+    "Implementierung eines Echtzeit-Objekterkennungssystems für Innenräume.",
+    "Optimierung von Deep-Learning-Modellen für Edge-Computing mit Jetson Nano.",
+    "Erreichen niedriger Latenz und hoher Genauigkeit bei der Objekterkennung."
+  ],
+  "link": ""
+},
+"project8": {
+  "title": "Buchungsplattform für Beauty-Dienstleistungen",
+  "description": "Webplattform für Buchung von Beauty-Services bei Freiberuflern mit Next.js, Node.js und PostgreSQL.",
+  "outcomes": [
+    "Entwicklung einer vollständigen Buchungsplattform mit Echtzeit-Verfügbarkeit.",
+    "Implementierung eines sicheren Authentifizierungs- und Zahlungssystems.",
+    "Erstellung einer responsiven Benutzeroberfläche für Kunden und Dienstleister."
+  ],
+  "link": ""
+},
+"project9": {
+  "title": "Intelligente Wasserstandsmessung mit 3D-gedrucktem Sensor",
+  "description": "Projekt zur Überwachung von Wasserständen mit Sensorik & eingebetteter Hardware, im Rahmen der Smart Campus-Initiative der Hochschule RheinMain.",
+  "outcomes": [
+    "Entwicklung eines IoT-basierten Wasserstandsüberwachungssystems.",
+    "Integration von 3D-gedruckten Sensorgehäusen mit eingebetteter Hardware.",
+    "Implementierung von Datenerfassung und -visualisierung in Echtzeit."
+  ],
+  "link": ""
+},
+      
+     "upcoming": {
+  "title": "Kommende Projekte",
+  "comingSoon": "Demnächst verfügbar",
+  "upcoming1": {
+    "title": "Explainable Wearable Biometrics: Erklärbare kontinuierliche Stressüberwachung in AR-Aufgaben",
+    "description": "Multimodales biometrisches System zur Stresserkennung mit erklärbarer KI, unter Verwendung von Smartwatch (EKG, Beschleunigung), HMD (Google HoloLens2/Apple Vision Pro - Gaze Tracking, Beschleunigung, Lagesensoren) und Motion Capture via Pose Estimation. Fokus auf Sensorfusion, Lab Recorder zur Bluetooth-Signalintegration und vertrauenswürdige Erklärungen für Nutzerakzeptanz und Compliance."
+  }
+}
     },
     "contact": {
       "title": "Kontaktieren Sie mich",

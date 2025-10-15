@@ -329,21 +329,18 @@ export default function Home() {
                       <div className="space-y-4">
                         <ul className="space-y-3 list-disc pl-5">
                           {[
-                            t("skills.technical.items.database"),
-                            t("skills.technical.items.dotnet"),
-                            t("skills.technical.items.java"),
-                            t("skills.technical.items.agile"),
-                            t("skills.technical.items.frontend"),
-                            t("skills.technical.items.mern"),
-                            t("skills.technical.items.git"),
-                            t("skills.technical.items.cloud"),
-                            t("skills.technical.items.docker"),
+                            "languages",
+                            "frameworks",
+                            "cloud",
+                            "databases",
+                            "tools",
+                            "methods"
                           ].map((skill, index) => (
                             <li
                               key={index}
                               className="text-gray-800 dark:text-gray-200"
                             >
-                              {skill}
+                              {t(`skills.technical.items.${skill}`)}
                             </li>
                           ))}
                         </ul>
@@ -420,7 +417,7 @@ export default function Home() {
                         {t("skills.interests.title")}
                       </h3>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                        {["webDev", "cloudDev", "systemDesign"].map(
+                        {["webDev", "cloudDev", "systemDesign", "networksecurity"].map(
                           (interest) => (
                             <motion.div
                               key={interest}
